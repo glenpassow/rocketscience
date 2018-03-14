@@ -14,7 +14,7 @@ Rm = 1.737E6
 Mm = 7.35E22
 
 #escape velocity moon
-Vm = sqrt(2*MM*G/Rm)
+Vm = sqrt(2*Mm*G/Rm)
 print("Predicted moon escape velocity is ", Vm," m/s")
 
 #escape velocity earth
