@@ -2,7 +2,7 @@ from ggrocket import Rocket, Planet
 from math import radians, sqrt
 from ggmath import Slider
 
-earth = Planet()
+earth = Planet(viewscale = 0.00005)
 
 #Constants relating to Earth and physics
 Re = 6.371E6 #Earth radius in meters
