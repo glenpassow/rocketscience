@@ -9,7 +9,7 @@ Me = 5.972E24 #Earth mass in kg
 G = 6.674E-11 #Gravitational constant
 
 #escape velocity
-Ve = sqrt(2*Me*G/Re
+Ve = sqrt(2*Me*G/Re)
 print("Predicted escape velocity is ", Ve," m/s")
 
 rocket = Rocket(earth, heading=radians(90),directiond=90, velocity=20)
