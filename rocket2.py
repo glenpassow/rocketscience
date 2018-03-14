@@ -1,5 +1,6 @@
 from ggrocket import Rocket, Planet
 from math import radians, sqrt
+from ggmath import Slider
 
 earth = Planet()
 
@@ -12,5 +13,8 @@ G = 6.674E-11 #Gravitational constant
 Ve = sqrt(2*Me*G/Re)
 print("Predicted escape velocity is ", Ve," m/s")
 
-rocket = Rocket(earth, heading=radians(90),directiond=90, velocity=20)
+#Slider for the timezoom
+tz = Slider((10,400), 0, 5, 0, positioning="physical")
+
+rocket = Rocket(earth, heading=radians(90),directiond=90, velocity=Ve, timezoom=tz)
 earth.run(rocket)
