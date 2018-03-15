@@ -59,7 +59,7 @@ def GetThrust():
     else:
         return 0
 def StartRocket():
-    global Stage1Starged
+    global Stage1Started
     global StartTime
     if not (Stage1Started or Stage2Started):
         Stage1Started = True
