@@ -11,7 +11,7 @@ StartTime = None
 BurnTime = 0
 
 #first stage
-mel = 25600 
+me1 = 25600 
 mp1 = 395700
 Ftotal1 = 6.44E6
 tburn1 = 180
@@ -19,6 +19,7 @@ tburn1 = 180
 #second stage
 me2 = 3900
 mp2 = 92670
+Ftotal2 = 8.01E5
 tburn2 = 372
 
 #payload
