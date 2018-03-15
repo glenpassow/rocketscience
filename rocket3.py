@@ -2,7 +2,7 @@ from ggrocket import Rocket, Planet
 from math import radians, sqrt, log
 from ggmath import InputButton, Timer
 
-earth = Planet(viewscale=0.00005)
+earth = Planet(viewscale=0.0005)
 
 RocketStarted = False
 StartTime = None
