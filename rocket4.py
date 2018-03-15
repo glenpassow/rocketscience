@@ -75,7 +75,7 @@ def GetMass():
     else:
         return me1+mp1+me2+mp2+mep
 
-def Get Status():
+def GetStatus():
     global Stage1Started, Stage2Started, PayloadLaunched
     if Stage1Started:
         return "Stage 1 Firing"
