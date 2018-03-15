@@ -40,7 +40,14 @@ def StartRocket():
         RocketStarted = True
         StartTime = rocket.shiptime
         
+def GetMass():
+    global RocketStarted
+    if RocketStarted:
+        return me+mp*(tburn-BurnTime)/tburn
+    else:
+        return me + mp
+        
 start = InputButton((10,400), "START", StartRocket, positioning="physical", size=15)
 
-rocket = Rocket(earth, thrust = GetThrust, mass=mp+me)
+rocket = Rocket(earth, thrust = GetThrust, mass=GetMass)
 earth.run(rocket)
