@@ -22,6 +22,7 @@ vmaxre = Ftotal*tburn/mp*log((me+mp)/me)
 print("Predicted final velocity (Rocket Equation), vmax: ", vmaxre, "m/s")
 
 def GetThrust():
+    global BurnTime
     global RocketStarted
     if RocketStarted:
         BurnTime = rocket.shiptime - StartTime
