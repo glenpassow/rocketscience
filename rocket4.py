@@ -1,6 +1,6 @@
 from ggrocket import Rocket, Planet
 from math import radians, sqrt, log
-from ggmath import Input Button, Timer, Label, Slider
+from ggmath import InputButton, Timer, Label, Slider
 
 earth = Planet(planetmass=0)
 
