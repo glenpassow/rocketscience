@@ -6,7 +6,7 @@ earth = Planet(planetmass=0)
 
 Stage1Started = False
 Stage2Started = False
-PayloadLauncbed = False
+PayloadLaunched = False
 StartTime = None
 BurnTime = 0
 
