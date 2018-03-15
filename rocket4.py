@@ -5,7 +5,7 @@ from ggmath import InputButton, Timer, Label, Slider
 earth = Planet(planetmass=0)
 
 Stage1Started = False
-Stage2Started - False
+Stage2Started = False
 PayloadLauncbed = False
 StartTime = None
 BurnTime = 0
