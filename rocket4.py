@@ -38,7 +38,7 @@ def GetThrust():
     global PayloadLaunched
     if Stage1Started:
         tburn = tburn1
-        Ftotal = Ftotalq
+        Ftotal = Ftotal1
     elif Stage2Started:
         tburn = tburn2
         Ftotal = Ftotal2
