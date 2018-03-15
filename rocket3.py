@@ -19,7 +19,7 @@ Ftotal = F1D*N1D
 tburn = 180
 
 vmax = Ftotal*tburn/(me+mp)
-print("Predicted final velocity (Newson't 2nd Las), vmax: " vmax, "m/s")
+print("Predicted final velocity (Newton's 2nd Las), vmax: ", vmax, "m/s")
 
 def GetThrust():
     global RocketStarted
