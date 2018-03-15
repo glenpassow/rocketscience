@@ -68,7 +68,7 @@ def StartRocket():
 def GetMass():
     global Stage1Started, Stage2Started, PayloadLaunched
     if Stage1Started:
-        return me1+me2+mep+mp2+mp1*(tburn2-BurnTime)/tburn1
+        return me1+me2+mep+mp2+mp1*(tburn1-BurnTime)/tburn1
     elif Stage2Started:
         return me2+mep+mp2*(tburn2-BurnTime)/tburn2
     elif PayloadLaunched:
