@@ -13,7 +13,7 @@ BurnTime = 0
 #first stage
 me1 = 25600 
 mp1 = 395700
-Ftotal1 = 6.44E6
+Ftotal1 = 6.444E6
 tburn1 = 180
 
 #second stage
